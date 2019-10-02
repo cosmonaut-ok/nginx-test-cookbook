@@ -1,0 +1,11 @@
+DEPENDENCIES
+  nginx-test-cookbook
+    path: .
+    metadata: true
+
+GRAPH
+  nginx (10.0.1)
+    ohai (~> 5.2)
+  nginx-test-cookbook (0.1.0)
+    nginx (~> 10.0)
+  ohai (5.3.0)
